@@ -1,0 +1,60 @@
+body{
+    background-color:#0d0e0c;
+    font-family:  cursive;
+    overflow-x:hidden;
+}
+#mainNavbar .navbar-brand{
+    color: #3e50f1;
+    font-size: 1.5rem;
+}
+#mainNavbar{
+    size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link:hover {
+    color:#3450f1;
+
+}
+#heading span{
+    color: #ea1c2c;
+}
+#heading h1{
+    font-weight: 100;
+    font-size: 4rems;
+}
+@media(max-width:1200px){
+    #heading h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+.cooler h2 {
+    color: #4d3d3d;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.cooler p {
+    color: #454db9;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.scrolled{
+    background:rgb(92, 69, 223) ;
+    transition: background 500ms;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(68, 60, 119);
+    border-radius: 10px;
+}
